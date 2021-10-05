@@ -16,6 +16,7 @@ h6 {
 
 p {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px !important;
 }
 
 .font-medium {
@@ -43,15 +44,9 @@ p {
 
 }
 
-.btn-logo-reverse {
-    color: #fab702;
-    background-color: #fff;
-
-
-}
 
 .btn-logo:hover {
-    color: #000;
+    color: #fff;
     background-color: #ffc831;
 }
 
@@ -72,7 +67,9 @@ p {
 }
 
 /*menu bar*/
-
+.navbar{
+    padding: 10px 0 !important;
+}
 .navbar-nav {
     text-align: right;
 }
@@ -83,7 +80,7 @@ p {
 
 .navbar-toggler {
     background-color: #f3f5f7;
-    color: #fff;
+    color: black;
 }
 
 /*banner area*/
@@ -111,8 +108,18 @@ p {
 .banner-wrapper {
     background-color: #fab702;
 }
+.get-text{
+    margin-top: 10px;
+}
 
-.btn-logo-reverse {}
+.btn-logo-reverse {
+    color: #fab702;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+
+}
+
 
 /*service area*/
 
@@ -157,6 +164,7 @@ p {
 
 /*media section start*/
 .media-wrapper {
+    padding: 80px 0;
     background-color: #f3f5f7;
 }
 
@@ -167,16 +175,14 @@ p {
 .mediaicon{
     padding-left: 25px;
 }
-.media-img {
-    width: 70px;
-    text-align: left;
+
+.media-right{
+    display: flex;
+    padding: 15px 0;
 }
-.media p {
-    margin: 0px !important;
-    text-align: left;
-    align-items: center !important;
-    padding: 5px 0 ;
-    
+.media-right-text{
+    padding-left: 25px;
+    margin-top: 10px;
 }
 
 
@@ -187,7 +193,10 @@ p {
     padding-top: 0px !important;
 }
 
-
+.sec-des{
+    max-width: 900px;
+    margin: auto;
+}
 /*featured section start*/
 /*isotop plugin start*/
 
@@ -217,6 +226,7 @@ p {
 
 .featured-item {
     background-color: #fab702;
+    position: relative;
 
 }
 
@@ -273,8 +283,12 @@ p {
 /*featured section stop*/
 
 /*feedback area*/
-.features-wrapper {}
-
+.features-wrapper{
+    padding: 80px 0;
+}
+.feedback-p{
+    padding-bottom: 60px;
+}
 .testimonial-item {
     background-color: #f3f5f7;
     margin: 5px 0;
@@ -284,10 +298,27 @@ p {
     width: 100%;
     height: 100%;
 }
+/* Client area */
+.client{
+    padding-bottom: 80px;
+}
+.client-item{
+    border: 1px solid rgb(41, 40, 40);
+    background-color: #fff;
+
+}
+.client-item:hover{
+    cursor: pointer;
+}
+.client-item img{
+    width: 150px !important;
+    margin: auto;
+}
 
 /*counter area start*/
 
 .counter-wrapper {
+    padding: 50px 0;
     background-color: #fab702;
 }
 
@@ -295,6 +326,7 @@ p {
 
 /*content area start*/
 .content-wrapper {
+    padding: 80px 0;
     background-color: #f3f5f7;
 }
 
