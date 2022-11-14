@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677be4a9-91b8-4dca-9b36-4482430d9e78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/style/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +38,25 @@
       <workItem from="1619382114945" duration="20000" />
       <workItem from="1619383107530" duration="1232000" />
       <workItem from="1633796288246" duration="396000" />
+      <workItem from="1642971588382" duration="1380000" />
+      <workItem from="1643002825597" duration="1658000" />
+      <workItem from="1643363226610" duration="655000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

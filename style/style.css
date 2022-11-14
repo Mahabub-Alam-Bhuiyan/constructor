@@ -67,9 +67,10 @@ p {
 }
 
 /*menu bar*/
-.navbar{
+.navbar {
     padding: 10px 0 !important;
 }
+
 .navbar-nav {
     text-align: right;
 }
@@ -108,7 +109,8 @@ p {
 .banner-wrapper {
     background-color: #fab702;
 }
-.get-text{
+
+.get-text {
     margin-top: 10px;
 }
 
@@ -172,15 +174,17 @@ p {
     display: block;
     padding: 0;
 }
-.mediaicon{
+
+.mediaicon {
     padding-left: 25px;
 }
 
-.media-right{
+.media-right {
     display: flex;
     padding: 15px 0;
 }
-.media-right-text{
+
+.media-right-text {
     padding-left: 25px;
     margin-top: 10px;
 }
@@ -189,14 +193,15 @@ p {
 
 /*media section stop*/
 
-.sec-heading{
+.sec-heading {
     padding-top: 0px !important;
 }
 
-.sec-des{
+.sec-des {
     max-width: 900px;
     margin: auto;
 }
+
 /*featured section start*/
 /*isotop plugin start*/
 
@@ -283,12 +288,14 @@ p {
 /*featured section stop*/
 
 /*feedback area*/
-.features-wrapper{
+.features-wrapper {
     padding: 80px 0;
 }
-.feedback-p{
+
+.feedback-p {
     padding-bottom: 60px;
 }
+
 .testimonial-item {
     background-color: #f3f5f7;
     margin: 5px 0;
@@ -298,19 +305,23 @@ p {
     width: 100%;
     height: 100%;
 }
+
 /* Client area */
-.client{
+.client {
     padding-bottom: 80px;
 }
-.client-item{
+
+.client-item {
     border: 1px solid rgb(41, 40, 40);
     background-color: #fff;
 
 }
-.client-item:hover{
+
+.client-item:hover {
     cursor: pointer;
 }
-.client-item img{
+
+.client-item img {
     width: 150px !important;
     margin: auto;
 }
@@ -341,6 +352,7 @@ p {
 /*footer area start*/
 .footer {
     background-color: #252c3a;
+    border-bottom: 1px solid #444 !important;
 }
 
 /*first column*/
@@ -352,8 +364,12 @@ p {
 
 .fot_item li {
     padding-bottom: 15px;
+    padding-top: 5px;
     border-bottom: 1px solid #444;
+}
 
+.fot_item li:last-child {
+    border: none !important;
 }
 
 .fot_item a {
@@ -419,21 +435,26 @@ p {
 
 .form-email:focus {
     outline: 0;
+
 }
 
-
-.form-email{
+.form-email {
     padding-left: 5px;
 }
-.btn10 {
 
+.btn10 {
     background-color: #fab702;
     border: none;
     padding: 10px;
     color: #fff;
 }
-.btn10:focus{
+
+.btn10:focus {
     box-shadow: none;
+}
+
+.btn10:focus-visible {
+    outline: 0 !important;
 }
 
 
@@ -441,7 +462,8 @@ p {
 /*footer area stop*/
 /*footer 2*/
 .footer2 {
-    background-color: darkgray;
+    background-color: #252c3a;
+
 
 }
 
